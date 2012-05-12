@@ -10,7 +10,7 @@ tmp/*
 *.swp
 *.out
 *~
-nbprojet/
+nbproject/
 nbproject/private/
 .idea/
 public/uploads/*
