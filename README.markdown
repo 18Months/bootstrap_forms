@@ -1,5 +1,7 @@
 Bootstrap Forms
 ===============
+[![Build Status](https://secure.travis-ci.org/sethvargo/bootstrap_forms.png?branch=master)](http://travis-ci.org/sethvargo/bootstrap_forms)
+
 Bootstrap Forms is a nice Rails generator that makes working with [Bootstrap (by Twitter)](http://twitter.github.com/bootstrap) even easier on Rails. 
 
 Forms with Bootstrap are crowded with additional layout markup. While it's necessary, you shouldn't have to type it every time you create a form! That's why I created Bootstrap Forms.
@@ -8,7 +10,7 @@ Bootstrap 2.0 Compliant!
 ------------------------
 A super special thanks to [vincenzor](https://github.com/vincenzor) for updating `bootstrap_forms` to comply with the new methods and features in Twitter Bootstrap 2.0. 
 
-To get these new features, ensure you are using `bootstrap_forms ~> 1.0.0`.
+To get these new features, ensure you are using `bootstrap_forms ~> 2.0.0`.
 
 Note/Caution/Warning
 --------------------
@@ -186,8 +188,9 @@ Contributing
 ------------
 I'm pretty dam active on github. Fork and submit a pull request. Most of my pull requests are merged the same day. Make sure you:
 
- - Squash into a single commit (unless it makes sense to have multiple commits)
- - Document your changes
+ - **Squash** into a single commit (unless it makes sense to have multiple commits)
+ - **Test/Spec** the changes
+ - **Document** your changes
 
 License
 -------
