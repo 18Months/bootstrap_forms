@@ -27,7 +27,6 @@ module BootstrapForms
 
         control_group_div  + input_div do
             extras { super(name, *(@args << @field_options)) }
-          end
         end
       end
     end
